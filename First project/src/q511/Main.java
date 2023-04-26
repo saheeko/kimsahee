@@ -12,7 +12,8 @@ public class Main {
 		
 		int x = 55 ;
 		int y = 10;
-		 System.out.println(x+"-"+y +"="+(x-y));
+		 System.out.println(x + " - " + y + " = " + (x-y));
+		 System.out.println("x-y=45");
 		 
 		
 		 
