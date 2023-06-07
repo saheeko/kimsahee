@@ -1,21 +1,22 @@
-package q9014;
+package q186;
 
 import java.util.Scanner;
-
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		String a = sc.next();
+		String b = sc.next();
 		
-		System.out.print("당신의 나이는 몇 살입니까? ");
-		int age = sc.nextInt();
+		if(a.length() < b.length()) {
+			System.out.println(b.length());
+		}else {
+			System.out.println(a.length());
+		}
 		sc.close();
-		
-		System.out.println("당신의 나이는 " + age + "살이군요.");
-		
-		
+	
 	}
 
 }

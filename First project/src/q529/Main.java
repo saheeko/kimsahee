@@ -1,7 +1,6 @@
-package q9014;
+package q529;
 
 import java.util.Scanner;
-
 
 public class Main {
 
@@ -9,13 +8,14 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("당신의 나이는 몇 살입니까? ");
-		int age = sc.nextInt();
+		int inp = sc.nextInt(); //키
+		int inq = sc.nextInt(); //몸무게
 		sc.close();
+		System.out.printf("%d\n",inq+100-inp);
 		
-		System.out.println("당신의 나이는 " + age + "살이군요.");
-		
-		
-	}
 
+		if (inq+100-inp > 0) {
+			System.out.println("Obesity");
+    	}
+	}
 }

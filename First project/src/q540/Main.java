@@ -1,7 +1,6 @@
-package q9014;
+package q540;
 
 import java.util.Scanner;
-
 
 public class Main {
 
@@ -9,13 +8,15 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("당신의 나이는 몇 살입니까? ");
-		int age = sc.nextInt();
+		while(true) {
+			int a = sc.nextInt();
+			if(a%3 == 0) {
+				System.out.println(a/3);
+			}else if (a == -1) {
+				break;
+			}else if (a % 3 != 0) {
+			}
+		}
 		sc.close();
-		
-		System.out.println("당신의 나이는 " + age + "살이군요.");
-		
-		
 	}
-
 }
